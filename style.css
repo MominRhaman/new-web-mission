@@ -1,11 +1,21 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
+    margin: 0;
     
 }
+
+.scale{
+    
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
 .flex{
     display: flex;
     margin: auto;
     margin-top: 30px;
+    width: 100%;
+    justify-content: space-between;
 }
 .head{
     border-left: 4px solid coral;
@@ -18,13 +28,29 @@ body{
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    margin-left: 5%;
 }
 .explore-button{
     text-decoration: none;
     background-color: #FF5959;
     color: white;
-    padding: 10px 40px;
+    padding: 14px 40px;
+    border-radius: 6px;
+}
+p{
+    margin-bottom: 30px;
+    
+
+}
+
+h1{
+    font-weight: 700;
+    font-size: 48sp;
+    
+}
+
+#scroll{
+    padding-top: 20px;
 }
 .my-mission{
     text-align: center;
@@ -34,20 +60,27 @@ body{
     color: #FFAD5A;
 }
 .mission{
+    width: 33.33%;
     background-color: #4f9da662;
     margin: 10px;
     border-radius: 20px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .vision{
+    width: 33.33%;
     background-color: #ff595956;
     margin: 10px;
     border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 }
 .goals{
+    width: 33.33%;
     background-color: #fff4d681;
     margin: 10px;
     border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 }
 .gap{
     padding: 15px;
@@ -61,10 +94,51 @@ body{
 
 }
 
+.shape-img1{
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 6%;
+    background-size: 200px 200px;
+
+}
+
 .coding{
     margin-left: 6%;
 }
 
 .limit{
-    margin-left: 2%;
+    margin-left: 5%;
 }
+
+.limit1{
+    margin-left: 5%;
+    margin-right: 25%;
+}
+
+.limit2{
+    margin-left: 5%;
+    margin-right: 25%;
+    margin-top: 6%;
+}
+
+.project{
+    margin-left: 36%;
+    
+}
+footer{
+    width: 100%;
+    background-color: #0B0D17;
+    text-align: center;
+    color: white;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-top: 3%;
+
+}
+
+#footer-head{
+    font-family: 'Lobster', cursive;
+
+}
+
