@@ -1,0 +1,23 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.head{
+    border-left: 4px solid coral;
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+.color{
+    color: #FFAD5A;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.explore-button{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 10px 40px;
+}
