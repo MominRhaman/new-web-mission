@@ -1,14 +1,19 @@
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
 .flex{
     display: flex;
+    margin: auto;
+    margin-top: 30px;
 }
 .head{
     border-left: 4px solid coral;
     font-family: 'Yeseva One', cursive;
     font-size: 30px;
-.color{
+    padding-left: 5px;
+}
+.color-mission{
     color: #FFAD5A;
 }
 .half-width{
@@ -20,4 +25,46 @@ body{
     background-color: #FF5959;
     color: white;
     padding: 10px 40px;
+}
+.my-mission{
+    text-align: center;
+    font-size: 25px;
+}
+.color-solid{
+    color: #FFAD5A;
+}
+.mission{
+    background-color: #4f9da662;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.vision{
+    background-color: #ff595956;
+    margin: 10px;
+    border-radius: 20px;
+}
+.goals{
+    background-color: #fff4d681;
+    margin: 10px;
+    border-radius: 20px;
+}
+.gap{
+    padding: 15px;
+}
+.shape-img{
+
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px 200px;
+
+}
+
+.coding{
+    margin-left: 6%;
+}
+
+.limit{
+    margin-left: 2%;
 }
